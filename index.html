@@ -13,9 +13,10 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand nav-font" href="#"><img src="images/icon.jpg" id="icon" ></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> -->
+            <img src="images/menu.png" class="menu-icon d-lg-none" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
@@ -29,10 +30,10 @@
                     <a class="nav-link Menu" href="pages/contactus.html">Contact us</a>
                   </li>
               </ul>
-              <div class="input-group col-6 col-lg-2">
-                <input type="text" class="form-control" aria-label="Text input with dropdown button">
+              <div class="input-group col-6 col-lg-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <input  class="form-control d-none" aria-label="Text input with dropdown button">
                 <div class="input-group-append">
-                  <i class="material-icons mt-1 mr-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">filter_list</i>
+                  <i class="material-icons mt-1 mr-2" >filter_list</i>
                   <div class="dropdown-menu ml-4">
                     <ul class="list-group" id="filters">
                       <li class="list-group-item d-flex justify-content-between align-items-center">
