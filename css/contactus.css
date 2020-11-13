@@ -91,3 +91,7 @@ input[type=submit]:hover {
   }
 }
 
+.menu-icon
+{
+    height: 30px;
+}

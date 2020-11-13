@@ -2,6 +2,7 @@
 
 body {
     font-family:'Source Serif Pro', serif;
+    overflow-x: hidden;
     margin: 0;
   }
   
@@ -74,4 +75,7 @@ body {
     width: 290px;
     box-shadow: 1px 1px 3px gray;
   }
-  
+  .menu-icon
+{
+    height: 30px;
+}
